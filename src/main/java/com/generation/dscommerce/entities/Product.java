@@ -72,8 +72,7 @@ public class Product {
         this.price = price;
     }
 
-    public String getImgUrl() {
-        return imgUrl;
+    public String getImgUrl() {return imgUrl;
     }
 
     public void setImgUrl(String imgUrl) {
@@ -104,4 +103,6 @@ public class Product {
     public int hashCode() {
         return Objects.hashCode(id);
     }
+
+
 }
